@@ -1,12 +1,10 @@
-
 import './App.css'
+import LoginPage from "./pages/loginPage";
 
 function App() {
-
-
-  return (
-   <div className='font-bold text-3xl'>react-text-analyzer</div>
-  )
+    return (
+        <LoginPage/>
+    )
 }
 
 export default App
